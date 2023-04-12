@@ -1,0 +1,47 @@
+.headings_servisesPage {
+  display: flex;
+}
+.part_cont_servicePage {
+  margin: 0.5rem 0;
+  padding: 0.2rem;
+  border-bottom: 2px solid;
+}
+.heading_txt_servisesPage {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin: auto 0;
+  font-weight: bold;
+}
+
+.add_btn_servicePage {
+  color: grey;
+  margin: auto 0;
+  width: 50%;
+}
+.add_btn_servicePage:hover {
+  color: blue;
+}
+.Del_servN {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: grey;
+}
+.Del_servN:hover {
+  color: red;
+}
+.item_servicepage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.InputField_cont_servicePage{
+  display: flex;
+  position: relative;
+}
+@media(max-width:500px){
+  .heading_txt_servisesPage{
+    font-size: 1rem;
+  }
+}

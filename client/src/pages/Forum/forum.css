@@ -1,0 +1,97 @@
+.title_askBtn_forum {
+  display: flex;
+  height: 4rem;
+  position: relative;
+}
+
+.title_Forum {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+@media (max-width:700px){
+  .title_Forum{font-size: 1.5rem;}
+}
+.ask_btn_forum {
+  margin: auto 5px;
+  height: 3rem;
+  border: 3px solid;
+  text-align: center;
+  cursor: pointer;
+  width: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  transition: all 1s;
+  font-weight: bolder;
+}
+
+.ask_btn_forum:hover {
+  color: rgb(132, 156, 159);
+}
+
+.doubts_list_container_forum {
+  height: calc(100vh - 5rem - 4rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.list_forum {
+  height: calc(100% - 3rem);
+  width: 100%;
+  margin: auto;
+  overflow-x: auto;
+  border-top: 1px solid rgba(128, 128, 128, 0.277);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.277);
+}
+
+
+.ask_doubt_cont_forum {
+  text-align: center;
+  padding: 0.1rem;
+  position: relative;
+}
+.text_forum {
+  font-size: large;
+  width: 100%;
+  color: black;
+  padding: 0.4rem;
+  background-color: rgba(128, 128, 128, 0.101);
+  border: 1px solid rgba(101, 101, 101, 0.49);
+  border-radius: 0.5rem;
+}
+.Done_forum {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
+  transition: all 10ms;
+  border-radius: 1rem;
+  font-weight: bolder;
+  background-color: whitesmoke;
+}
+.Done_forum:hover {
+  color: blue;
+}
+
+.doubt_forum{
+  word-break: break-all;
+}
+.doubt_forum {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  margin: auto 0;
+  padding: 0.3rem;
+  flex-grow: 1;
+  min-height: 4rem;
+  transition: all 0.5s;
+  overflow-wrap: break-word;
+}
+.doubt_forum:hover {
+    color: rgb(83, 27, 195);
+    font-size: 1.01rem;
+ }

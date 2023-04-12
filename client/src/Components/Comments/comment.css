@@ -1,0 +1,58 @@
+.commentSubForm {
+  display: flex;
+  width: 70%;
+  /* visibility: ; */
+  margin: 0.5rem;
+  position: relative;
+}
+
+.commentIBox {
+  width: 80%;
+  padding: 0.5%;
+  padding-left: 2%;
+  background-color: transparent;
+  border: 0;
+  font-weight: bolder;
+  color: black;
+  border-bottom: 2px solid grey;
+}
+.Done_Comment:hover{
+  color: blue;
+}
+
+.userCommented {
+  color: rgb(27, 14, 14);
+  margin: 0;
+}
+
+.EditDel {
+  padding: 0.2rem;
+  margin: 0;
+  margin-bottom: 0.8rem;
+  color: rgba(44, 85, 209, 0.696);
+  cursor: pointer;
+}
+
+.commentBdy {
+  font-weight: bolder;
+  color: rgb(17, 17, 17);
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.cmtCont {
+  padding: 0.2rem;
+  border: 2px solid rgba(255, 127, 80, 0.193);
+  margin: 0.7rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(246, 227, 108, 0.4);
+}
+.displayComment_commentsPage {
+  background-color: whitesmoke;
+  padding: 1rem;
+  overflow-x: auto;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-radius: 1rem;
+  height: 31.5rem;
+}
